@@ -1,10 +1,9 @@
 public class Main {
-    public static int somar(int num1, int num2){
-        return num1 + num2;
-    }
     public static void main(String[] args) {
-        System.out.print("Olá, Github!");
-        int result = somar(5,6);
-        System.out.println(result);
+            Pessoa pessoal = new Pessoa();
+            pessoal.nome = "Renan";
+            pessoal.idade = 17;
+            System.out.println(pessoal.nome);
+            System.out.println(pessoal.idade);
     }
 }
